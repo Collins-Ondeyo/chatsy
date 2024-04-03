@@ -1,6 +1,6 @@
-import ChatSection from "@/Sections/ChatSection/ChatSection";
-import ProfileSection from "@/Sections/ProfileSection/ProfileSection";
-import UsersSection from "@/Sections/UsersSection/UsersSection";
+import ChatSection from "@/components/sections/ChatSection/ChatSection";
+import ProfileSection from "@/components/sections/ProfileSection/ProfileSection";
+import UsersSection from "@/components/sections/UsersSection/UsersSection";
 
 export default function Home({className}:{
   className:string
