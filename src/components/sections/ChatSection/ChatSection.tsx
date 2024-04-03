@@ -15,7 +15,7 @@ function ChatSection({className}:{
                     fill
                     src={mockData.users[2].imageUrl}/>
                 </div>
-                <div className="font-semibold text-sm">{mockData.users[1].name}</div>
+                <div className="font-semibold text-sm">{mockData.users[2].name}</div>
             </div>
         </div>
 
@@ -24,7 +24,12 @@ function ChatSection({className}:{
             <div className="py-3">
                 <div className="flex flex-row justify-end items-start gap-2 px-5">
                     <div className="max-w-[45%] text-sm bg-white p-2 rounded-sm">
-                        Hello Kelly, tomorrow morning we have project demo
+                        <div>
+                            Hello Kelly, tomorrow morning we have project demo
+                        </div>
+                        <div className="text-gray-800 text-xs text-right">
+                            3 mins ago
+                        </div>
                     </div>
                     <div className="relative w-[35px] aspect-square rounded-full border-[2px] border-white overflow-hidden">
                         <Image 
@@ -35,17 +40,23 @@ function ChatSection({className}:{
                 </div>
             </div>
 
+
             <div className="py-3">
                 <div className="flex flex-row justify-start items-start gap-2 px-5">
                     <div className="relative w-[35px] aspect-square rounded-full border-[2px] border-white overflow-hidden">
                         <Image 
                         fill
                         alt="profile image"
-                        src={mockData.users[0].imageUrl}/>
+                        src={mockData.users[2].imageUrl}/>
                     </div>
                     <div className="max-w-[45%] text-sm bg-white p-2 rounded-sm">
-                        Hello, I'm just putting together a zip containing the proposal and 
-                        all of the work that I've done so far. 
+                        <div>
+                            Hello, I'm just putting together a zip containing the proposal and 
+                            all of the work that I've done so far. 
+                        </div>
+                        <div className="text-gray-800 text-xs text-right">
+                            2 mins ago
+                        </div>
                     </div>
                 </div>
             </div>
